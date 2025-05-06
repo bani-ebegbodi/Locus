@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Charter Regular.ttf</string>
+		<string>Charter Bold.ttf</string>
+		<string>DINAlternate-Bold.ttf</string>
+	</array>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need access to speech recognition for converting your speech to text. </string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to convert speech to text.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationPreferredDefaultSceneSessionRole</key>

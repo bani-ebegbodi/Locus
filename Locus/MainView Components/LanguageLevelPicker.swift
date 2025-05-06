@@ -11,18 +11,17 @@ struct LanguageLevelPicker: View {
     @Binding var selectedLevel: String
     let title: String
     
-    // Define our language levels with descriptions
+    //list of levels
     let levels = [
         (id: "beginner", name: "Beginner", description: "Basic vocabulary and simple conversations. Suitable for those just starting to learn."),
-        (id: "intermediate", name: "Intermediate", description: "Expanded vocabulary and ability to discuss various topics. Can understand most everyday conversations."),
-        (id: "advanced", name: "Advanced", description: "Close to fluent communication with rich vocabulary. Can discuss complex topics and understand native speakers.")
+        (id: "intermediate", name: "Intermediate", description: "Expanded vocabulary and can discuss various topics. Can understand common conversations."),
+        (id: "advanced", name: "Advanced", description: "Close to fluent communication. Can discuss complex topics and understand native speakers.")
     ]
     
     var body: some View {
         HStack {
             Text(title)
-                .font(.headline)
-                //.padding(.bottom, 4)
+                .font(.custom("DIN Alternate", size: 30))
             
             Menu {
                 ForEach(levels, id: \.id) { level in
@@ -31,6 +30,7 @@ struct LanguageLevelPicker: View {
                     }) {
                         HStack {
                             Text(level.name)
+                                //.font(.custom("DIN Alternate", size: 30))
                             Spacer()
                             if selectedLevel == level.id {
                                 Image(systemName: "checkmark")
@@ -40,23 +40,25 @@ struct LanguageLevelPicker: View {
                 }
             } label: {
                 HStack {
-                    Text(getLevelName(for: selectedLevel))
+                    Text(getLevelName(for: selectedLevel) + "*")
+                        .font(.custom("DIN Alternate", size: 30))
                 }
             }
         }
-            
-            // Show the description for the selected level
+        
+        //description for levels
         VStack {
             if let description = getLevelDescription(for: selectedLevel) {
                 Text(description)
-                    .font(.caption)
+                    .font(.custom("DIN Alternate", size: 25))
                     //.foregroundColor(.secondary)
-                    .padding(.top, 4)
+                    .padding(.top, 2)
+                    .frame(width: 380)
+                    .multilineTextAlignment(.center)
             }
         }
     }
 
-    // Helper methods
         private func getLevelName(for id: String) -> String {
             levels.first(where: { $0.id == id })?.name ?? "Select Level"
         }

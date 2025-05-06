@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C7062E022D837D3700B9F79E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C7062E012D837D3700B9F79E /* RealityKitContent */; };
+		C7A8AF692D9C6E520097B98B /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = C7A8AF682D9C6E520097B98B /* OpenAI */; };
+		C7A8AF702D9C865A0097B98B /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = C7A8AF6F2D9C865A0097B98B /* WebRTC */; };
+		C7D0D68D2DA7680900BF59F6 /* Cafe in Frameworks */ = {isa = PBXBuildFile; productRef = C7D0D68C2DA7680900BF59F6 /* Cafe */; };
+		C7D0D6AA2DA7F5E300BF59F6 /* Cafe-2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C7D0D6A92DA7F5E300BF59F6 /* Cafe-2.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +28,11 @@
 		C7062DFC2D837D3700B9F79E /* Locus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7062E002D837D3700B9F79E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		C7062E1B2D837D3800B9F79E /* LocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D0D6852DA7645600BF59F6 /* Cafe.rkassets */ = {isa = PBXFileReference; lastKnownFileType = folder.rkassets; path = Cafe.rkassets; sourceTree = "<group>"; };
+		C7D0D6862DA7645600BF59F6 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		C7D0D6892DA7645600BF59F6 /* Package.realitycomposerpro */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Package.realitycomposerpro; path = Cafe/Package.realitycomposerpro; sourceTree = "<group>"; };
+		C7D0D68A2DA7645600BF59F6 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = Cafe/Package.swift; sourceTree = "<group>"; };
+		C7D0D6A92DA7F5E300BF59F6 /* Cafe-2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe-2.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -34,6 +43,13 @@
 			);
 			target = C7062DFB2D837D3700B9F79E /* Locus */;
 		};
+		C79B1C842D9F64360014EA3E /* Exceptions for "Locus" folder in "LocusTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppSettings.swift,
+			);
+			target = C7062E1A2D837D3800B9F79E /* LocusTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +57,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				C7062E212D837D3800B9F79E /* Exceptions for "Locus" folder in "Locus" target */,
+				C79B1C842D9F64360014EA3E /* Exceptions for "Locus" folder in "LocusTests" target */,
 			);
 			path = Locus;
 			sourceTree = "<group>";
@@ -57,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A8AF692D9C6E520097B98B /* OpenAI in Frameworks */,
+				C7D0D68D2DA7680900BF59F6 /* Cafe in Frameworks */,
 				C7062E022D837D3700B9F79E /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A8AF702D9C865A0097B98B /* WebRTC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +113,39 @@
 		C7062DFF2D837D3700B9F79E /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				C7D0D6A92DA7F5E300BF59F6 /* Cafe-2.usdz */,
+				C7D0D6842DA7645600BF59F6 /* Cafe */,
 				C7062E002D837D3700B9F79E /* RealityKitContent */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		C7D0D6842DA7645600BF59F6 /* Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0D6892DA7645600BF59F6 /* Package.realitycomposerpro */,
+				C7D0D68A2DA7645600BF59F6 /* Package.swift */,
+				C7D0D6882DA7645600BF59F6 /* Sources */,
+			);
+			name = Cafe;
+			sourceTree = "<group>";
+		};
+		C7D0D6872DA7645600BF59F6 /* Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0D6852DA7645600BF59F6 /* Cafe.rkassets */,
+				C7D0D6862DA7645600BF59F6 /* Cafe.swift */,
+			);
+			path = Cafe;
+			sourceTree = "<group>";
+		};
+		C7D0D6882DA7645600BF59F6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0D6872DA7645600BF59F6 /* Cafe */,
+			);
+			name = Sources;
+			path = Cafe/Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +169,8 @@
 			name = Locus;
 			packageProductDependencies = (
 				C7062E012D837D3700B9F79E /* RealityKitContent */,
+				C7A8AF682D9C6E520097B98B /* OpenAI */,
+				C7D0D68C2DA7680900BF59F6 /* Cafe */,
 			);
 			productName = Locus;
 			productReference = C7062DFC2D837D3700B9F79E /* Locus.app */;
@@ -141,8 +193,6 @@
 				C7062E1E2D837D3800B9F79E /* LocusTests */,
 			);
 			name = LocusTests;
-			packageProductDependencies = (
-			);
 			productName = LocusTests;
 			productReference = C7062E1B2D837D3800B9F79E /* LocusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -175,6 +225,10 @@
 			);
 			mainGroup = C7062DF32D837D3700B9F79E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C7A8AF672D9C6D6C0097B98B /* XCRemoteSwiftPackageReference "OpenAI" */,
+				C7D0D68B2DA7680900BF59F6 /* XCLocalSwiftPackageReference "Packages/Cafe" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C7062DFD2D837D3700B9F79E /* Products */;
 			projectDirPath = "";
@@ -191,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D0D6AA2DA7F5E300BF59F6 /* Cafe-2.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Locus/Preview Content\"";
+				DEVELOPMENT_TEAM = L93QV93JA8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -245,6 +301,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DOPENAI_API_KEY=$(OPENAI_API_KEY)\n";
 				PRODUCT_BUNDLE_IDENTIFIER = com.banibe.Locus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -262,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Locus/Preview Content\"";
+				DEVELOPMENT_TEAM = L93QV93JA8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -270,6 +329,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DOPENAI_API_KEY=$(OPENAI_API_KEY)\n";
 				PRODUCT_BUNDLE_IDENTIFIER = com.banibe.Locus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -335,6 +396,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[sdk=xr*]" = "-DOPENAI_API_KEY=$(OPENAI_API_KEY)";
 				SDKROOT = xros;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -391,6 +453,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				"OTHER_SWIFT_FLAGS[sdk=xr*]" = "";
 				SDKROOT = xros;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -468,10 +531,41 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		C7D0D68B2DA7680900BF59F6 /* XCLocalSwiftPackageReference "Packages/Cafe" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Cafe;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7A8AF672D9C6D6C0097B98B /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		C7062E012D837D3700B9F79E /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		C7A8AF682D9C6E520097B98B /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7A8AF672D9C6D6C0097B98B /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		C7A8AF6F2D9C865A0097B98B /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WebRTC;
+		};
+		C7D0D68C2DA7680900BF59F6 /* Cafe */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Cafe;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

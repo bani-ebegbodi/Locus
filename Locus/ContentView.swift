@@ -16,13 +16,22 @@ struct ContentView: View {
                 .tabItem{ Label("Home", systemImage: "house")
                 }
             Collection()
-                .tabItem { Label("Collection", systemImage: "book.pages")
+                .tabItem { Label("Worlds", systemImage: "globe.americas")
                 }
+            /*
+            ChatView(navigateToChat: .constant(false))
+                .tabItem { Label("Chat Logs", systemImage: "book.pages")
+                }
+             */
+            ChatLogView()
+                .tabItem { Label("Chat Logs", systemImage: "book.pages")
+                }
+
         }
     }
 }
 
 #Preview(windowStyle: .automatic) {
     ContentView()
-        .environment(AppModel())
+        .environmentObject(AppSettings())
 }

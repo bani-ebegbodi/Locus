@@ -12,6 +12,7 @@ struct LocusApp: App {
     
     @State private var appModel = AppModel()
     @State private var avPlayerViewModel = AVPlayerViewModel()
+    @StateObject private var settings = AppSettings()
     
     var body: some Scene {
         WindowGroup {
@@ -20,8 +21,10 @@ struct LocusApp: App {
             } else {
                 ContentView()
                     .environment(appModel)
+                    .environmentObject(settings)
             }
         }
+        .windowStyle(.plain)
         
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
             ImmersiveView()

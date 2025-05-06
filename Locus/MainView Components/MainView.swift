@@ -9,9 +9,10 @@ import SwiftUI
 import RealityKit
 
 struct MainView: View {
-    @State private var knownLanguage: String = "en"
-    @State private var targetLanguage: String = "es"
-    @State private var languageLevel: String = "beginner"
+    //@State private var knownLanguage: String = "en"
+    //@State private var targetLanguage: String = "es"
+    //@State private var languageLevel: String = "beginner"
+    @EnvironmentObject var settings: AppSettings
     
     let languages: [(code: String, name: String)] = {
         //making the lang names english instead of its native lang
@@ -30,36 +31,47 @@ struct MainView: View {
     }()
     
     var body: some View {
-        VStack {
-            Text("Locus")
-                .font(.system(size: 80, weight: .bold, design: .rounded))
-                .padding(.bottom, 100)
+        ZStack {
+            Color("Sky")
+                .cornerRadius(30)
+            VStack {
+                Image("Locus_Full_Logo-2")
+                    .resizable()
+                //.aspectRatio(contentMode: .fit)
+                    .frame(width: 500, height: 200)
+                    //.padding(.bottom, 50)
+                Rectangle()
+                    .padding(.bottom, 50)
+                    .frame(width: 500, height: 55)
+                    .cornerRadius(10)
+                    .foregroundColor(.sea)
+                LanguagePicker(
+                    title: "Your Language:",
+                    selectedLanguage: $settings.knownLanguage,
+                    languages: languages
+                )
+                .padding(.vertical, 8)
                 
-            LanguagePicker(
-                title: "Your Language:",
-                selectedLanguage: $knownLanguage,
-                languages: languages
-            )
-            .padding(.vertical, 8)
+                LanguagePicker(
+                    title: "Target Language:",
+                    selectedLanguage: $settings.targetLanguage,
+                    languages: languages
+                )
+                .padding(.vertical, 8)
                 
-            LanguagePicker(
-                title: "Target Language:",
-                selectedLanguage: $targetLanguage,
-                languages: languages
-            )
-            .padding(.vertical, 8)
+                LanguageLevelPicker(
+                    selectedLevel: $settings.languageLevel,
+                    title: "Proficiency:"
+                )
+                .padding(.vertical, 8)
                 
-            LanguageLevelPicker(
-                selectedLevel: $languageLevel,
-                title: "Language Level:"
-            )
-            .padding(.vertical, 8)
-            
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
 #Preview {
     MainView()
+        .environmentObject(AppSettings())
 }

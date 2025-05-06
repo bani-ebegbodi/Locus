@@ -24,13 +24,15 @@ struct LanguagePicker: View {
     var body: some View {
         HStack {
             Text(title)
-                .font(.headline)
+                //.font(.headline)
+                .font(.custom("DIN Alternate", size: 30))
             
             Button(action: {
                 isShowingPicker = true
             }) {
                 Text(languages.first(where: { $0.code == selectedLanguage })?.name ?? "Select")
                     .foregroundColor(.white)
+                    .font(.custom("DIN Alternate", size: 30))
             }
         }
         .sheet(isPresented: $isShowingPicker) {

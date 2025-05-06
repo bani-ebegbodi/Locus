@@ -1,0 +1,634 @@
+{
+  "057E61D9-E52C-4137-A369-C5643ED4D73B" : {
+    "objectMetadataList" : [
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Coffee_Shop_Cup"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "Coffee_Menu"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "_materials",
+        "Wall_color"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Scene",
+        "CafeRoot",
+        "_materials",
+        "WoodyWood"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "CafeRoot",
+        "bar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Wooden_World_Map_Decor"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Wall_Shelf"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "_materials",
+        "PBR_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "_materials",
+        "WoodyWood"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Coffee_Menu",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "CafeRoot",
+        "walls_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Scene",
+        "CafeRoot",
+        "_materials",
+        "Wall_color"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "FREE_Pothos_Potted_Plant___Money_Plant"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Window"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "Window"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "Wooden_World_Map_Decor"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Coffee_Menu"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Scene",
+        "SkyDome"
+      ],
+      {
+        "disallowsFraming" : true,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "Scene"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "057E61D9-E52C-4137-A369-C5643ED4D73B",
+        "CafeRoot",
+        "CafeRoot"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "440E10E0-9802-4FF6-B89A-E7D7AF0BF3FD" : {
+    "objectMetadataList" : [
+      [
+        "440E10E0-9802-4FF6-B89A-E7D7AF0BF3FD",
+        "shelf_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "440E10E0-9802-4FF6-B89A-E7D7AF0BF3FD",
+        "floor_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "440E10E0-9802-4FF6-B89A-E7D7AF0BF3FD",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "440E10E0-9802-4FF6-B89A-E7D7AF0BF3FD",
+        "walls_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "55B14C5C-A729-4B50-A004-54E17F799D94" : {
+    "objectMetadataList" : [
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001",
+        "Menu"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001",
+        "Menu",
+        "Menu_Menu_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "55B14C5C-A729-4B50-A004-54E17F799D94",
+        "Cafe",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A0C57CFC-65A4-4344-8CD8-33B5835596A9" : {
+    "objectMetadataList" : [
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "bar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "floor_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "shelf_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "table_top"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "shelf_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "walls_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A0C57CFC-65A4-4344-8CD8-33B5835596A9",
+        "Studio",
+        "chair_stand"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D5A3E94F-8D1D-482A-926B-6116172D7167" : {
+    "objectMetadataList" : [
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_metal_seat_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_stand_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_plush_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "walls_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_plush_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001",
+        "Menu"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "shelf_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "Cube_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "shelf_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_metal_seat"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "floor_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "bar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "table_top"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_metal_seat_002"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_plush"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "Coffee_Menu_fbx",
+        "RootNode_001",
+        "Menu",
+        "Menu_Menu_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_stand_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "chair_stand"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5A3E94F-8D1D-482A-926B-6116172D7167",
+        "Cube"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
